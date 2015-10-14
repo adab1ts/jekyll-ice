@@ -61,13 +61,13 @@ gulp.task('compile:styles', ['lint:styles'], function() {
           rucksack = require('rucksack-css'),
            postcss = require('gulp-postcss');
 
+  /* See https://github.com/jenius/axis/issues/222 */
   var processors = [rucksack({fallbacks: true}), lost(), autoprefixer()],
-         plugins = [rupture(), typographic()];
-//         plugins = [axis(), rupture(), typographic()];
+         plugins = [axis(), rupture(), typographic()];
 
   return gulp.src(cfg.resources.main_style)
     .pipe(sourcemaps.init())
-    .pipe(stylus({use: plugins}))
+    .pipe(stylus({'include css': true, use: plugins}))
     .pipe(postcss(processors))
     .on('error', function(e) {
       util.log(e);
