@@ -1,2 +1,4 @@
-module.exports = (msg) ->
-  console.log msg
+module.exports =
+
+  log: (msg) ->
+    console.log msg

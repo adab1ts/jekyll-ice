@@ -1,3 +1,3 @@
 logger = require './_logger'
 
-logger 'Hello World!'
+logger.log 'Hello World!'
