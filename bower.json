@@ -1,0 +1,7 @@
+{
+  "name": "jekyll-ice",
+  "private": true,
+  "dependencies": {
+    "modernizr": "~2.8.3"
+  }
+}
