@@ -18,8 +18,9 @@ destination: ./site
 #   sass_dir: assets/styles
 
 # Handling Reading
-exclude:    ['assets/scripts', 'assets/styles']
-keep_files: ['.git', 'assets/scripts', 'assets/styles']
+include:    ['.gitignore', '.htaccess']
+exclude:    ['assets/fonts', 'assets/images', 'assets/scripts', 'assets/styles']
+keep_files: ['.git', 'assets/fonts', 'assets/images', 'assets/scripts', 'assets/styles']
 
 # Filtering Content
 show_drafts: false
@@ -36,6 +37,9 @@ gems:
 # Conversion
 markdown:    kramdown
 highlighter: pygments
+
+# Outputting
+timezone: Europe/Madrid
 
 # Markdown Processors
 kramdown:
