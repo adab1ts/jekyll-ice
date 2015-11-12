@@ -1,6 +1,7 @@
 # Gulp-Flow
 
 Develop and build your [Jekyll](http://jekyllrb.com/) website with [Gulp.js](http://gulpjs.com/).  
+
 Created and maintained by Carles Muiños and Klaudia Alvarez.  
 Inspired by Stefan Imhoff's [gulp-tutorial](https://github.com/kogakure/gulp-tutorial) project.
 
