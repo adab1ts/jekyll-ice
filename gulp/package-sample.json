@@ -1,7 +1,7 @@
 {
   "name": "gulp-flow",
   "version": "1.0.0",
-  "description": "Develop ang build your website with Gulp.js",
+  "description": "Develop ang build your Jekyll website with Gulp.js",
   "keywords": [
     "jekyll",
     "gulp",
