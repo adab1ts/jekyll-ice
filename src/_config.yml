@@ -31,6 +31,9 @@ gems:
 markdown:    kramdown
 highlighter: pygments
 
+# Outputting
+timezone: Europe/Madrid
+
 # Markdown Processors
 kramdown:
   input: GFM

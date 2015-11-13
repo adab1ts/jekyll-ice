@@ -15,7 +15,11 @@ You can use Christophe Porteneuve's [git-stree](https://github.com/tdd/git-stree
 $ git stree add gulp-flow -P gulp git@github.com:adab1ts/gulp-flow.git
 ```
 
-Once installed, move `package-sample.json` to `/your/project/root/folder/package.json`, open `gulp/config.js` and change settings as needed.  
+Once installed:
+
+- move `package-sample.json` to `/your/project/root/folder/package.json`,
+- move `gulpfile-sample.js` to `/your/project/root/folder/gulpfile.js` and
+- open `gulp/config.js` and change settings as needed.  
 
 
 ## Running Gulp-Flow
